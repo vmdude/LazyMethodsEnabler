@@ -1,0 +1,23 @@
+﻿Build started 23/04/2013 14:24:14.
+     1>Project "C:\Users\927323\Documents\Visual Studio 2010\Projects\LazyMethodsEnabler\lazyMethodsEnabler.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\lazyMethodsEnabler.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt lazyMethodsEnabler.cpp
+         lazyMethodsEnabler.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\lazyMethodsEnabler.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:lib vixDiskLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\lazyMethodsEnabler.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\927323\Documents\Visual Studio 2010\Projects\LazyMethodsEnabler\Release\lazyMethodsEnabler.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\lazyMethodsEnabler.lib" /MACHINE:X86 Release\lazyMethodsEnabler1.res
+         Release\lazyMethodsEnabler.obj
+         lazyMethodsEnabler.vcxproj -> C:\Users\927323\Documents\Visual Studio 2010\Projects\LazyMethodsEnabler\Release\lazyMethodsEnabler.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\lazyMethodsEnabler.exe;#1" /manifest Release\lazyMethodsEnabler.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\lazyMethodsEnabler.unsuccessfulbuild".
+         Touching "Release\lazyMethodsEnabler.lastbuildstate".
+     1>Done Building Project "C:\Users\927323\Documents\Visual Studio 2010\Projects\LazyMethodsEnabler\lazyMethodsEnabler.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.32
